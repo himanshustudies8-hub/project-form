@@ -1,10 +1,10 @@
 import mysql.connector
 
 conn = mysql.connector.connect(
-    host='localhost',
-    user='root' ,
-    password='Himanshu4444@',
-    database='form'
+    host='sql12.freesqldatabase.com',
+    user='sql12825012',
+    password='b6wdUwJViL',
+    database='sql12825012'
 )
 my_cursor = conn.cursor()
 

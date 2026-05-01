@@ -16,11 +16,11 @@ def submit():
     description = request.form['description']
 
     conn = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='Himanshu4444@',
-        database='form'
-    )
+    host='sql12.freesqldatabase.com',
+    user='sql12825012',
+    password='b6wdUwJViL',
+    database='sql12825012'
+)
     cursor = conn.cursor()
     cursor.execute("INSERT INTO freelancer (name, email, mobile, address, description) VALUES (%s, %s, %s, %s, %s)", (name, email, mobile, address, description))
     conn.commit()
