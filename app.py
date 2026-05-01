@@ -26,7 +26,7 @@ def submit():
     conn.commit()
     conn.close()
 
-    return "Data Save Ho Gaya! ✅"
+    return "Data successfully saved"
 
 if __name__ == '__main__':
     app.run(debug=True)
